@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T11:18:28 IST" name="Suite" finished-at="2023-06-22T11:19:15 IST" duration-ms="46715">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:allTest.CucumberRunner@1caa0244]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-22T11:18:28 IST" name="Test" finished-at="2023-06-22T11:19:15 IST" duration-ms="46715">
+      <class name="allTest.CucumberRunner">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:18:22 IST" name="configuration" finished-at="2023-06-22T11:18:26 IST" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:18:26 IST" name="openUrl" finished-at="2023-06-22T11:18:28 IST" duration-ms="2706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:18:28 IST" name="setUpClass" finished-at="2023-06-22T11:18:29 IST" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d84e363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:18:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-22T11:18:58 IST" duration-ms="29252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login using correct Email ID and Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TruTime"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:18:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-22T11:19:08 IST" duration-ms="9304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening OneCognizant Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TruTime"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:19:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-22T11:19:11 IST" duration-ms="3154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching and Opening TruTime Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TruTime"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:19:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-22T11:19:15 IST" duration-ms="3933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verification of displayed dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TruTime"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:19:15 IST" name="tearDownClass" finished-at="2023-06-22T11:19:15 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:allTest.CucumberRunner@1caa0244]" started-at="2023-06-22T11:19:15 IST" name="closeDriver" finished-at="2023-06-22T11:19:15 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- allTest.CucumberRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
